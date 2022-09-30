@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+site anterior
+https://animaplay-front-leo3965.vercel.app/
