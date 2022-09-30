@@ -1,0 +1,344 @@
+{
+    "editais":[
+      {
+          "id":1, 
+          "descricao":"Edital regular 2022/1", 
+          "ano": 2022,
+          "semestre": 1,
+          "status": "E"
+      },
+      {
+        "id":2, 
+        "descricao":"Edital regular 2022/2", 
+        "ano": 2022,
+        "semestre": 1,
+        "status": "A"
+    },
+    {
+        "id":3, 
+        "descricao":"Edital regular 2023/1", 
+        "ano":2023,
+        "semestre": 1,
+        "status": "N"
+    }
+    ],
+    "edital_squad" :[
+        {
+            "edital": {
+                "id":2, 
+                "descricao":"Edital regular 2022/2", 
+                "ano": 2022,
+                "semestre": 1,
+                "status": "A"
+            },
+            "squads": [
+                {
+                    "id": 1,
+                    "nome": "Liem - projeto migrantes",
+                    "lab": {
+                        "id": 1,
+                        "nome": "Inova Lab UniRitter",
+                        "tipo_lab": {
+                                        "id": 1,
+                                        "nome": "InovaLab"
+                                    }, 
+                        "ie": {
+                                "id": 1,
+                                "nome": "UniRitter",
+                                "regional": "Sul"
+                            },
+                        "ano_inicio": 2022,
+                        "sem_inicio": 1,
+                        "status": "A",
+                        "ano_fim": null,
+                        "sem_fim": null,
+                        "descricao": "lorem ",
+                        "lider_tic": null,
+                        "lider_area": null
+                        
+                    },
+                    "ano_inicio": 2022,
+                    "sem_inicio": 1,
+                    "status": "A",
+                    "orientador_tic": null,
+                    "orientador_area": null,
+                    "ano_fim": null,
+                    "sem_fim": null,
+                    "nivel_inicial": 3,
+                    "nivel_atual": 4,
+                    "discentes": [
+                         {
+                            "edital": {
+                                "id":1, 
+                                "descricao":"Edital regular 2022/1", 
+                                "ano":"Dark Chocolate",
+                                "semestre":"This is the chocolate with 70% cocoa",
+                                "status": "E"
+                            },
+                            "discentes": [
+                                {
+                                    "id": 1,
+                                    "nome":"discente 1",
+                                    "status": "E"}
+                                ]
+                        },
+                        {
+                            "edital": {
+                                        "id":1, 
+                                        "descricao":"Edital regular 2022/1", 
+                                        "ano":"Dark Chocolate",
+                                        "semestre":"This is the chocolate with 70% cocoa",
+                                        "status": "E"
+                                    },
+                            "discentes": [
+                                {
+                                    "id": 1,
+                                    "nome":"discente 1",
+                                    "status": "E"}
+                                ]
+                        }
+                    ]
+                }
+            ]}
+    ],
+    "edital_inscricoes": [
+        {
+            "id": 1,
+            "edital": {
+                "id": 1,
+                "nome": "Edital regular 2022/1" 
+            },
+            "squad": {
+                "id": 1,
+                "nome": "Liem - projeto migrantes"
+            },
+            "discente": {
+                "id": 1,
+                "nome": "discente 1"
+            },
+            "obs": "2021-03-01: inscrição",
+            "status": "I"
+        }
+    ],
+    "discentes":[
+        {
+            "id": 1,
+            "nome": "discente 1",
+            "email": "discente1@email.com",
+            "celular": "11911111111",
+            "ie": 1,
+            "campus": 1,
+            "curso": 1,
+            "status": 0,
+            "ra": "1111"
+        }
+    ],
+    "docentes":[
+        {
+            "id": 1,
+            "nome": "docente 1",
+            "email": "docente1@email.com",
+            "celular": "11921111111",
+            "ie": 1,
+            "campus": null,
+            "area_conhecimento": "Computação e engenharias",
+            "status": 0,
+            "matricula": "1111",
+            "ano_entrada": 2022,
+            "sem_entrada": 1,
+            "ano_saida": null,
+            "sem_saida": null
+        }
+    ],
+    "ies":[
+        {
+            "id": 1,
+            "nome": "UniRitter",
+            "regional": "Sul"
+        },
+        {
+            "id": 2,
+            "nome": "AGES",
+            "regional": "Nordeste"
+        },
+        {
+            "id": 3,
+            "nome": "FADERGS",
+            "regional": "Sul"
+        },
+        {
+            "id": 4,
+            "nome": "UNA",
+            "regional": "Sudeste"
+        },
+        {
+            "id": 5,
+            "nome": "UniBH",
+            "regional": "Sudeste"
+        }
+    ],
+    "campi": [
+        {
+            "id": 1,
+            "ie": {
+                    "id": 1,
+                    "nome": "UniRitter",
+                    "regional": "Sul"
+                },
+            "campus": "FAPA"
+        },
+        {
+            "id": 2,
+            "ie": {
+                    "id": 1,
+                    "nome": "UniRitter",
+                    "regional": "Sul"
+                },
+            "campus": "Zona Sul"
+        },
+        {
+            "id": 3,
+            "ie": {
+                    "id": 1,
+                    "nome": "UniRitter",
+                    "regional": "Sul"
+                },
+            "campus": "Canoas"
+        },
+        {
+            "id": 4,
+            "ie":         {
+                "id": 2,
+                "nome": "AGES",
+                "regional": "Nordeste"
+            },
+            "campus": "Parapiranga"
+        },
+        {
+            "id": 5,
+            "ie":         {
+                "id": 2,
+                "nome": "AGES",
+                "regional": "Nordeste"
+            },
+            "campus": "Lagarto"
+        }
+    ],
+    "squads": [
+        {
+            "id": 1,
+            "nome": "Liem - projeto migrantes",
+            "lab": {
+                "id": 1,
+                "nome": "Inova Lab UniRitter",
+                "tipo_lab": {
+                                "id": 1,
+                                "nome": "InovaLab"
+                            }, 
+                "ie": {
+                        "id": 1,
+                        "nome": "UniRitter",
+                        "regional": "Sul"
+                    },
+                "ano_inicio": 2022,
+                "sem_inicio": 1,
+                "status": "A",
+                "ano_fim": null,
+                "sem_fim": null,
+                "descricao": "lorem ",
+                "lider_tic": null,
+                "lider_area": null
+                
+            },
+            "ano_inicio": 2022,
+            "sem_inicio": 1,
+            "status": "A",
+            "orientador_tic": null,
+            "orientador_area": null,
+            "ano_fim": null,
+            "sem_fim": null,
+            "nivel_inicial": 3,
+            "nivel_atual": 4,
+            "discentes": [
+                 {
+                    "edital": {
+                        "id":1, 
+                        "descricao":"Edital regular 2022/1", 
+                        "ano":"Dark Chocolate",
+                        "semestre":"This is the chocolate with 70% cocoa",
+                        "status": "E"
+                    },
+                    "discentes": [
+                        {
+                            "id": 1,
+                            "nome":"discente 1",
+                            "status": "E"}
+                        ]
+                },
+                {
+                    "edital": {
+                                "id":1, 
+                                "descricao":"Edital regular 2022/1", 
+                                "ano":"Dark Chocolate",
+                                "semestre":"This is the chocolate with 70% cocoa",
+                                "status": "E"
+                            },
+                    "discentes": [
+                        {
+                            "id": 1,
+                            "nome":"discente 1",
+                            "status": "E"}
+                        ]
+                }
+            ]
+        }
+    ],
+    "labs": [
+        {
+            "id": 1,
+            "nome": "Inova Lab UniRitter",
+            "tipo_lab": {
+                            "id": 1,
+                            "nome": "InovaLab"
+                        }, 
+            "ie": {
+                    "id": 1,
+                    "nome": "UniRitter",
+                    "regional": "Sul"
+                },
+            "ano_inicio": 2022,
+            "sem_inicio": 1,
+            "status": "A",
+            "ano_fim": null,
+            "sem_fim": null,
+            "descricao": "lorem ",
+            "lider_tic": null,
+            "lider_area": null,
+            "nivel_inicial": 3,
+            "nivel_atual": 4
+        }
+    ],
+    "labs_conf": [
+        {
+            "id": 1,
+            "nome": "InovaLab"
+        },
+        {
+            "id": 2,
+            "nome": "MediaLab"
+        },
+        {
+            "id": 3,
+            "nome": "HealthLab"
+        },
+        {
+            "id": 4,
+            "nome": "AgroLab"
+        },
+        {
+            "id": 5,
+            "nome": "EngineeringLab"
+        }
+    ]
+
+}
