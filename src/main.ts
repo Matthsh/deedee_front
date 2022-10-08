@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import { onMounted } from 'vue'
 import { themeChange } from 'theme-change'
+import { plugin, defaultConfig } from '@formkit/vue'
 export default {
     setup() {
       onMounted(() => {
@@ -16,4 +17,4 @@ const app = createApp(App)
 
 app.use(router)
 
-app.mount('#app')
+app.use(plugin, defaultConfig).mount('#app')

@@ -20,11 +20,11 @@
         <li><a>O que fazer</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl">AnimaHubLab</a>
+    <a className="btn btn-ghost normal-case text-xl" href="/">AnimaHubLab</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal p-0">
-      <li><a>Sobre</a></li>
+      <li><a href="/sobre">Sobre</a></li>
       <li tabIndex={0}>
         <a>
           Sobre
