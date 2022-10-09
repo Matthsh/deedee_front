@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '@/views/HomeView.vue';
+import CadastroP from '@/views/CadastroP.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -10,9 +11,9 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: "/sobre",
-      name: "sobre",
-      component: AboutView
+      path: "/cadastrop",
+      name: "cadastro",
+      component: CadastroP
     }
   ]
 })
