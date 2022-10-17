@@ -11,7 +11,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v3
       - name: Building to prodution
-        run: yarn build
+        run: build
       
       - name: List files in the repository
         run: |
