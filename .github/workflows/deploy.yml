@@ -10,6 +10,8 @@ jobs:
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - name: Check out repository code
         uses: actions/checkout@v3
+      - name: Preparing to prodution
+        uses: actions/setup-node@v2
       - name: Building to prodution
         run: npm run build
       
