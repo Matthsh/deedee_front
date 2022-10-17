@@ -20,6 +20,6 @@ jobs:
       run: yarn
     - name: Build
       run: |
-        yarm build
+        yarn build
     - name: Finishing and going home
       run: echo "🍏 This job's status is ${{ job.status }}."
