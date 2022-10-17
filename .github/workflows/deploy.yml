@@ -19,6 +19,6 @@ jobs:
 
     - name: Build
       run: |
-        npm build
+        npm run build
     - name: Finishing and going home
       run: echo "🍏 This job's status is ${{ job.status }}."
