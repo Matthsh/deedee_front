@@ -9,7 +9,7 @@ export default {
             .catch(err => console.log(err));
     },
     async getCampus() {
-        return apiZiggy.get('/campus')
+        return await apiZiggy.get('/campus')
             .then((response) => {
                 return response.data.productId
             })
@@ -18,11 +18,11 @@ export default {
     getPrograms() {
         return apiZiggy.get('/programs')
     },
-    async postProfessor(object){
+    postProfessor(object){
         apiZiggy.post('/contato_docente/add', object)
     },
     async getProfessors() {
-        return apiZiggy.get('/contato_docente')
+        return await apiZiggy.get('/contato_docente')
             .then((response) => {
                 return response.data.productId
             })

@@ -22,13 +22,10 @@
 
 
 
-<script lang="ts">
-import Vue from 'vue'
-import services from '../../axios/services'
-services.getIEs()
-export default ({
+<script>
+export default {
     name: "HomeView"
-})
+}
 
 </script>
 

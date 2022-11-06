@@ -31,7 +31,7 @@
 
 
       <!-- "status": 0, -->
-      <FormKit type="select" label="Status social" placeholder="Status" name="status" :options="{
+      <FormKit type="select" label="Status" placeholder="Status" name="status" :options="{
         mercury: 'Mercury',
         venus: 'Venus',
         earth: 'Earth',
@@ -88,9 +88,9 @@
 
 // preenche os selects
 import services from '../../axios/services'
-const IEs = services.getIEs()
-const Campus = services.getCampus();
-const idP = services.getProfessors()
+const IEs = await services.getIEs()
+const Campus = await services.getCampus();
+const idP = await services.getProfessors()
 
 export default {
   name: "Cadastro",
@@ -135,10 +135,6 @@ export default {
     }
   },
   methods: {
-    salvaCampus(option) {
-      this.campus = option.selectedIndex
-      console.log(this.campus)
-    },
     salvaIe(option) {
       this.ie = option.selectedIndex
       console.log(this.ie)
@@ -146,6 +142,10 @@ export default {
         this.iePren = true
       }
       this.campusIe(this.ie)
+    },
+    salvaCampus(option) {
+      this.campus = option.selectedIndex
+      console.log(this.campus)
     },
     campusIe(ieId) {
       this.campusSelect = []
